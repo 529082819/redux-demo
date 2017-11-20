@@ -5,3 +5,5 @@
 >
 >npm run mock (前端本地用node模拟接口进程)
 
+node-sass有时候会安装失败、请单独运行
+>npm i node-sass --save-dev
