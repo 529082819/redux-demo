@@ -1,0 +1,35 @@
+// html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;font-family:Helvetica, Tahoma, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", STXihei, STHeiti, Heiti, SimSun, sans-serif; font-size:100%;}
+html,body{color:#333;font-size: 16px;}
+body{background:#fff;overflow-x: hidden;}
+ul,ol,li{ list-style:none;}
+a:link, a:visited{ color:#333; text-decoration:none;}
+a:hover{ color:#12b7f5;}
+img{ border:none;}
+em{ font-style:normal;}
+h1,h2,h3,h4,h5{ font-weight:normal;}
+.clearfloat:after{ content:'.';display:block;overflow:hidden;visibility:hidden;font-size:0;line-height:0;width:0;height:0;}
+.clearfloat{zoom:1;}
+
+// table,tr,td,th,thead,tbody{}
+.table{
+	width: 100%;
+	thead{
+		background: #ddd;
+		td{
+			padding: 0px 8px;
+		}
+	}
+	tbody{
+		tr{
+			border-top: 1px solid #000;
+			padding: 10px 8px;
+			td{
+				border-top: 1px solid #000;
+				padding: 10px 8px;
+				text-align: center;
+				display: block;
+			}
+		}
+	}
+	
+}
