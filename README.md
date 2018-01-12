@@ -7,3 +7,5 @@
 
 node-sass有时候会安装失败、请单独运行
 >npm i node-sass --save-dev
+
+如果有babel异常，请参考babel官网[https://babeljs.io/]
